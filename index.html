@@ -47,7 +47,7 @@
                         <input id="rectangle-length" type="text" class="w-24 text-2xl p-2 rounded-sm" placeholder="length">
                         <span class="mr-4 ml-2">cm</span>
                       </div>
-                      <div><p>Area :<span id="rectangle-area">0</span><span>cm<sup>2</sup></span></p></div>
+                      <div><p>Area :<span id="">0</span><span>cm<sup>2</sup></span></p></div>
                       <div class="card-actions ">
                         <button onclick="rectangleCalculate()" class="btn btn-primary w-full">Calculate</button>
                       </div>
@@ -60,12 +60,12 @@
                       <h2 class="card-title text-2xl">Parallelogram</h2>
                       <p class="text-center">Area : b X h</p>
                       <div>
-                        <input type="text" placeholder="b" class="w-24 text-2xl p-2 rounded-sm"><span>cm</span>
-                        <input type="text" placeholder="h" name="" id="" class="w-24 text-2xl p-2 rounded-sm"><span>cm</span>
+                        <input id="ParallelogramB" type="text" placeholder="b" class="w-24 text-2xl p-2 rounded-sm"><span>cm</span>
+                        <input type="text" placeholder="h" name="" id="ParallelogramH" class="w-24 text-2xl p-2 rounded-sm"><span>cm</span>
                       </div>
-                      <div><p>Area: <span>0</span><span>cm<sup>2</sup></span></p></div>
+                      <div><p>Area: <span id="ParallelogramDisplay">0</span><span>cm<sup>2</sup></span></p></div>
                       <div class="card-actions ">
-                        <button class="btn btn-primary w-full">Calculate</button>
+                        <button onclick="ParallelogramCalculate()" class="btn btn-primary w-full">Calculate</button>
                       </div>
                     </div>
                   </div>
@@ -103,5 +103,6 @@
     </footer>
     <script src="scripts/triangleCalculate.js"></script>
     <script src="scripts/rectanglearea.js"></script>
+    <script src="scripts/Parallelogramcalculate.js"></script>
 </body>
 </html>
