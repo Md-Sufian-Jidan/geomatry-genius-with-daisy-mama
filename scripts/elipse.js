@@ -1,11 +1,11 @@
-// console.log('pentagon gone gone');
-function pentagonCalculate(){;
-    const base = getInputValueById('pentagon-perimeter')
+function ellipseCalculate(){;
+    const base = getInputValueById('ellipse-a')
     // console.log(base);
-    const length = getInputValueById('pentagon-apothem');
+    const length = getInputValueById('ellipse-b');
     // console.log(length);
-    const area = base * length;
-    const areaDisplay = setInnerTextById('pentagon-area', area);
+    const pi  = 3.1416;
+    const area = pi * base * length;
+    const areaDisplay = setInnerTextById('ellipse-area', area);
     return areaDisplay
 }
 function getInputValueById(inputFieldId){

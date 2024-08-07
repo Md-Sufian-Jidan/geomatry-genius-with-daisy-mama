@@ -1,11 +1,10 @@
-// console.log('pentagon gone gone');
-function pentagonCalculate(){;
-    const base = getInputValueById('pentagon-perimeter')
+function rhombusCalculate(){;
+    const base = getInputValueById('rhombus-d1')
     // console.log(base);
-    const length = getInputValueById('pentagon-apothem');
+    const length = getInputValueById('rhombus-d2');
     // console.log(length);
     const area = base * length;
-    const areaDisplay = setInnerTextById('pentagon-area', area);
+    const areaDisplay = setInnerTextById('rhombus-area', area);
     return areaDisplay
 }
 function getInputValueById(inputFieldId){
